@@ -1,0 +1,170 @@
+/* General Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'sans-serif';
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    background-image: url(img/background2.png);
+}
+
+#open-btn{
+    position: absolute;
+    top: 70%;
+    left: 12%;
+    background-color: transparent;
+    border: solid 2px #fff;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 5px;
+    box-shadow: 0 0 3px black;
+    transition: .5s;
+
+}
+
+
+#open-btn:hover{
+    background-color: #262626;
+    color: #fff;
+    font-weight: bold;
+}
+
+#modal{
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    animation-name: modalbtn;
+    animation-duration: .4s;
+}
+
+/* Modal Animation */
+
+@keyframes modalbtn {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+#close-btn{
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: red;
+}
+
+#modal-container{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
